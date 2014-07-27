@@ -188,12 +188,13 @@ application during development. Start the web server by running:
 npm start
 ```
 
-This will create a local webserver that is listening to port 8080 on your local machine.
+This will create a local webserver that is listening to port 8000 on your local machine.
 You can now browse to the application at:
 
 ```
-http://localhost:8080/app/index.html
+http://localhost:8000/app/index.html
 ```
+NOTE: if you encounter problems and your browser cannot connect to localhost:8000, try using port 8080 instead of 8000.
 
 <div class="alert alert-info">
 To serve the web app on a different ip address or port, edit the "start" script within package.json.
